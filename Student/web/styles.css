@@ -1,0 +1,59 @@
+Downloaded from: justpaste.it/1y2i5
+style.css source code
+*{
+padding: 0px;
+margin: 0px;
+}
+body{
+background-image: u rl("images/header.jpg");
+background-size: cover;
+font-family: sans-serif;
+text-align: center;
+}
+.contact-form{
+margin-top: 100px;
+color: #fff;
+text-transform: uppercase;
+transition: all 4s ease-in-out;
+}
+.contact-form h1{
+font-size: 32px;
+}
+.contact-form h2{
+font-size: 16px;
+line-height: 30px;
+}
+form{
+margin-top: 50px;
+transition: all 4s ease-in-out;
+}
+.form-control{
+width: 600px;
+background: transparent;
+border: none;
+outline: none;
+border-bottom: 1px solid gray;
+color: #fff;
+font-size: 18px;
+margin-bottom: 16px;
+}
+input{
+height: 45px;
+}
+form .submit{
+background: #ff5722;
+border-color: transparent;
+color: #fff;
+font-size: 20px;
+font-weight: bold;
+letter-spacing: 2px;
+height: 50px;
+margin-top: 20px;
+}
+form .submit:hover{
+background: #f44336;
+cursor: pointer;
+}
+textarea{
+resize: none;
+}

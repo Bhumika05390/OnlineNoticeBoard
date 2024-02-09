@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+  <head>
+        <title> Online Notice Bord System</title>
+        <link  rel="stylesheet" href="style.css" >
+		<link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+
+    </head>
+<body background="6.jpg">
+	
+		<br>
+		<br>
+		<br>
+	  
+		
+
+<h2>Online Notice Board System: Sign in/up Form</h2>
+<br>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="r.php" method="post">
+			<h2>SignUp</h2>
+			<input type="text"  name="Name" placeholder="Name" class="form-control" required> 
+			<input type="email"  name="Email" placeholder="Email" class="form-control" required> 
+			<input type="password" name="Password" placeholder="Password"  class="form-control" required> 
+			<button>Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="login.php" method="post">
+			<h2>SignIn</h2>
+			<input type="text"  name="Name" placeholder="Name" class="form-control" required> 
+			<input type="email"  name="Email" placeholder="Email" class="form-control" required> 
+			<input type="password" name="Password" placeholder="Password"  class="form-control" required> 
+			
+			<button>Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h2>Welcome Back!</h2>
+				<p>Check all your notices</p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hello</h1>
+				<p>Enter your personal details here</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+<script src ="1.js"></script>
+
+</html>
