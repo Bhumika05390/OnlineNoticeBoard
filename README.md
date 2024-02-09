@@ -17,3 +17,4 @@ their respective adviser or teacher.
 - Open Xampp control panel and start Apache and Mysql and in your computer.
 - Click admin of Mysql in xampp control panel and import onlin_notice and exam databasesin your mysql server.
 - Finally Launch localhost/OnlineNoticeBoard/Online/index.html.
+![onb](https://github.com/Bhumika05390/OnlineNoticeBoard/assets/79781292/b298bbfd-32a5-4b2e-86f6-ccf2586a28c7)
